@@ -2,6 +2,7 @@ import React from "react";
 import App from "./App";
 import DogDetails from "./DogDetails";
 import { useParams } from "react-router-dom";
+import "./DogList.css";
 
 const DogList = () => {
 	let { dogs } = App.defaultProps;

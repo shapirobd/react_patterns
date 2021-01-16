@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Nav.css";
 
 const Nav = ({ names }) => {
 	return (
-		<nav>
+		<nav className="Nav">
 			{names.map((name) => (
 				<Link key={name} to={`/dogs/${name}`}>
 					{name}
