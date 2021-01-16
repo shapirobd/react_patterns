@@ -27,6 +27,7 @@ const NewColorForm = ({ setColors }) => {
 			<label htmlFor="color">Color Name</label>
 			<input
 				type="text"
+				placeholder="Enter color name"
 				id="colorName"
 				name="colorName"
 				value={colorName}
